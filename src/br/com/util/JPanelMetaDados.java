@@ -64,7 +64,7 @@ public class JPanelMetaDados<E> extends JPanel {
 		JPanel ptabelas = new JPanel();
 		tabbedPane.addTab("Tabelas", null, ptabelas, null);
 		GridBagLayout gbl_ptabelas = new GridBagLayout();
-		gbl_ptabelas.columnWidths = new int[] {464, 0};
+		gbl_ptabelas.columnWidths = new int[] { 464, 0 };
 		gbl_ptabelas.rowHeights = new int[] { 53, 0 };
 		gbl_ptabelas.columnWeights = new double[] { 0.0, Double.MIN_VALUE };
 		gbl_ptabelas.rowWeights = new double[] { 1.0, Double.MIN_VALUE };
@@ -83,7 +83,7 @@ public class JPanelMetaDados<E> extends JPanel {
 			ProcedimentosApoio.treeConexaoOrigem.getSelectionModel()
 					.setSelectionMode(TreeSelectionModel.SINGLE_TREE_SELECTION);
 			jspBdOrigem = new JScrollPane(ProcedimentosApoio.treeConexaoOrigem);
-		
+
 			ProcedimentosApoio.treeConexaoOrigem.addTreeSelectionListener(new TreeSelectionListener() {
 				public void valueChanged(TreeSelectionEvent treeEvento) {
 					DefaultMutableTreeNode node = (DefaultMutableTreeNode) ProcedimentosApoio.treeConexaoOrigem
@@ -235,21 +235,28 @@ public class JPanelMetaDados<E> extends JPanel {
 		}
 		return list;
 	}
-	
+
 	public static <T> List<T> obterChavesPrimarias(String tableName) throws SQLException {
 
-		String nomeTabela[] = tableName.split("(");
+		String nomeTabela[] = tableName.split("\\(");
+		
 		List<T> list = new ArrayList<>();
 		ResultSet PK = dbmetadata.getPrimaryKeys(null, null, nomeTabela[0]);
-		System.out.println("------------PRIMARY KEYS-------------"); //só recupera as chaves primárias do metadados
+		System.out.println("------------PRIMARY KEYS-------------"); // só
+																		// recupera
+																		// as
+																		// chaves
+																		// primárias
+																		// do
+																		// metadados
 		while (PK.next()) {
 			System.out.println(PK.getString("COLUMN_NAME") + "===" + PK.getString("PK_NAME"));
-			UtilToGenerics<String, String, String> ug = new UtilToGenerics<>(PK.getString("COLUMN_NAME") ,
-					                                                         PK.getString("PK_NAME"), PK.getString("TABLE_NAME"));
+			UtilToGenerics<String, String, String> ug = new UtilToGenerics<>(PK.getString("COLUMN_NAME"),
+					PK.getString("PK_NAME"), PK.getString("TABLE_NAME"));
 			list.add((T) ug);
 		}
-		//recuperar registros membros de uma chave pai...
-		
+		// recuperar registros membros de uma chave pai...
+
 		return list;
 	}
 
@@ -331,7 +338,6 @@ public class JPanelMetaDados<E> extends JPanel {
 		}
 	}
 
-	
 	/**
 	 * @param args
 	 */
@@ -351,14 +357,14 @@ public class JPanelMetaDados<E> extends JPanel {
 
 	}
 
-	protected static JSplitPane       jspDiretorioConexoes;
-	protected static JScrollPane      jspBdOrigem;
-	protected static JScrollPane      jspBdDestino;
+	protected static JSplitPane jspDiretorioConexoes;
+	protected static JScrollPane jspBdOrigem;
+	protected static JScrollPane jspBdDestino;
 
-	Connection                        con;
-	ConnectionFactory                 conexao;
+	Connection con;
+	ConnectionFactory conexao;
 	protected static DatabaseMetaData dbmetadata;
-	private Object                    actuallyT;
+	private Object actuallyT;
 
-	private JFrame                    jfrm;
+	private JFrame jfrm;
 }
