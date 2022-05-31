@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="iso-8859-1"?><loteDeSelos>
+<selo id="TJDFT20220130150049TKGE">
+<cortesia>0</cortesia>
+<visivelinternet>1</visivelinternet>
+<status>22</status>
+<motivoCancelamentoDeProtesto>4</motivoCancelamentoDeProtesto>
+<objeto><![CDATA[2ª via Certidao de Casamento, Protocolo nº 68739-N, Nubentes: RAFAEL FREITAS MACHADO e LORENA DE MORAIS XIMENES CAMPOS, Livro: 49-BA, Folhas: 130]]></objeto>
+<servidor><![CDATA[JOELSON PEREIRA BRAGA]]></servidor>
+<observacao><![CDATA[]]></observacao>
+<isento>0</isento>
+<motivoisento><![CDATA[]]></motivoisento>
+<lancamento>
+<valorpago>0.00</valorpago>
+<valortjdft>0.0</valortjdft>
+<valorfundo>0.0</valorfundo>
+<quantidade>1</quantidade>
+<referenciadecustas>I15</referenciadecustas>
+<data>25/05/2022</data>
+<motivoDaReducao><![CDATA['']]></motivoDaReducao>
+</lancamento>
+</selo>
+<selo id="TJDFT20220130150050RZYC">
+<status>24</status>
+<motivoCancelamentoDeProtesto>4</motivoCancelamentoDeProtesto>
+<cortesia>0</cortesia>
+<visivelinternet>1</visivelinternet>
+<objeto><![CDATA[2ª via Certidao de Casamento, Protocolo nº 68739-N, Nubentes: RAFAEL FREITAS MACHADO e LORENA DE MORAIS XIMENES CAMPOS, Livro: 49-BA, Folhas: 130]]></objeto>
+<servidor><![CDATA[JOELSON PEREIRA BRAGA]]></servidor><observacao><![CDATA[]]></observacao><isento>0</isento><motivoisento><![CDATA[]]></motivoisento>
+<lancamento>
+<valorpago>0.00</valorpago>
+<valortjdft>0.0</valortjdft>
+<valorfundo>0.0</valorfundo>
+<quantidade>1</quantidade>
+<referenciadecustas>I15</referenciadecustas>
+<data>25/05/2022</data>
+<motivoDaReducao><![CDATA['']]></motivoDaReducao>
+</lancamento>
+</selo>
+</loteDeSelos>
+
+

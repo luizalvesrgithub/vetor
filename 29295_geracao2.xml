@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<loteDeSelos>
+<selo id="TJDFT20220130150050RZYC">
+<objeto><![CDATA[ Requerente: JOSE NILDO RODRIGUES]]><![CDATA[CANCELAMENTO POR REMESSA INDEVIDA]]></objeto>
+<servidor><![CDATA[Clecia Freitas de Medeiros Silva]]></servidor>
+<origem>4</origem>
+<status>24</status>
+<motivoCancelamentoDeProtesto>3</motivoCancelamentoDeProtesto>
+<visivelinternet>0</visivelinternet>
+<tipoDeIntimacaoDeProtesto>2</tipoDeIntimacaoDeProtesto>
+<referenteSelo>TJDFT20220140065422ZDNZ</referenteSelo>
+<postergado>1</postergado>
+<lancamento>
+<valorpago>0</valorpago>
+<valortjdft>0.00</valortjdft>
+<valorfundo>0.00</valorfundo>
+<quantidade>1</quantidade>
+<referenciadecustas>M04</referenciadecustas>
+<data>29/04/2022</data>
+</lancamento>
+<lancamentoadicional>
+<descricao><![CDATA[Entrega de intimação]]></descricao>
+<valor>0</valor>
+</lancamentoadicional>
+<lancamento>
+<valorpago>0</valorpago>
+<valortjdft>0.00</valortjdft>
+<valorfundo>0.00</valorfundo>
+<quantidade>1</quantidade>
+<referenciadecustas>M18</referenciadecustas>
+<data>29/04/2022</data>
+</lancamento>
+<lancamento>
+<valorpago>0</valorpago>
+<valortjdft>0.00</valortjdft>
+<valorfundo>0.00</valorfundo>
+<quantidade>1</quantidade>
+<referenciadecustas>M15</referenciadecustas>
+<data>29/04/2022</data>
+</lancamento>
+</selo>
+<selo id="TJDFT20220130150049TKGE">
+<objeto><![CDATA[ Requerente: ANTONIO DUTRA DOS SANTOS]]><![CDATA[ Data do Cancelamento: 29/04/2022]]></objeto>
+<servidor><![CDATA[Clecia Freitas de Medeiros Silva]]></servidor>
+<origem>4</origem>
+<status>24</status>
+<motivoCancelamentoDeProtesto>3</motivoCancelamentoDeProtesto>
+<visivelinternet>0</visivelinternet>
+<tipoDeIntimacaoDeProtesto>2</tipoDeIntimacaoDeProtesto>
+<referenteSelo>TJDFT20200140160148ULYP</referenteSelo>
+<postergado>1</postergado>
+<lancamento>
+<valorpago>52.15</valorpago>
+<valortjdft>0.00</valortjdft>
+<valorfundo>0.00</valorfundo>
+<quantidade>1</quantidade>
+<referenciadecustas>M05</referenciadecustas>
+<data>29/04/2022</data>
+</lancamento>
+<lancamentoadicional>
+<descricao><![CDATA[Entrega de intimação]]></descricao>
+<valor>14.75</valor>
+</lancamentoadicional>
+<lancamento>
+<valorpago>23.70</valorpago>
+<valortjdft>0.00</valortjdft>
+<valorfundo>0.00</valorfundo>
+<quantidade>1</quantidade>
+<referenciadecustas>M18</referenciadecustas>
+<data>29/04/2022</data>
+</lancamento>
+<lancamento>
+<valorpago>13.95</valorpago>
+<valortjdft>0.00</valortjdft>
+<valorfundo>0.00</valorfundo>
+<quantidade>1</quantidade>
+<referenciadecustas>M15</referenciadecustas>
+<data>29/04/2022</data>
+</lancamento>
+</selo>
+</loteDeSelos>
